@@ -1,0 +1,26 @@
+Chef's current age is 
+20
+20 years, while Chefina's current age is 
+10
+10 years.
+Determine Chefina's age when Chef will be 
+�
+X years old.
+
+
+solution::
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n;
+	    cin>>n;
+	   cout<<(n-10)<<"\n";
+	}
+	return 0;
+}
