@@ -1,0 +1,32 @@
+Chef has started studying for the upcoming test. The textbook has 
+�
+N pages in total. Chef wants to read at most 
+�
+X pages a day for 
+�
+Y days.
+
+Find out whether it is possible for Chef to complete the whole book.
+
+solution::
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int n,x,y;
+	    cin>>n>>x>>y;
+	    int z=x*y;
+	    if(z>=n){
+	        cout<<"YES\n";
+	    }
+	    else{
+	        cout<<"NO\n";
+	    }
+	}
+	return 0;
+}
