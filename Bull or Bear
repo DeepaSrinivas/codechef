@@ -1,0 +1,40 @@
+Chef is on his way to become the new big bull of the stock market but is a bit weak at calculating whether he made a profit or a loss on his deal.
+
+Given that Chef bought the stock at value 
+�
+X and sold it at value 
+�
+Y. Help him calculate whether he made a profit, loss, or was it a neutral deal.
+
+input::                              output::
+4                                   LOSS
+4 2                                 NEUTRAL
+8 8                                 PROFIT
+3  4                                LOSS
+
+
+solution::
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>y){
+	        cout<<"LOSS\n";
+	    }
+	    else if(x == y){
+	        cout<<"NEUTRAL\n";
+	    }
+	    else{
+	        cout<<"PROFIT\n";
+	    }
+	}
+	return 0;
+}
