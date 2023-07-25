@@ -1,0 +1,31 @@
+Chef's coding class is very famous in Chefland.
+
+This year 
+�
+X students joined his class and each student will require one chair to sit on. Chef already has 
+�
+Y chairs in his class. Determine the minimum number of new chairs Chef must buy so that every student is able to get one chair to sit on.
+
+
+solution:::
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    if(x>=y){
+	        cout<<x-y<<"\n";
+	    }
+	    else{
+	        cout<<"0\n";
+	    }
+	}
+	return 0;
+}
