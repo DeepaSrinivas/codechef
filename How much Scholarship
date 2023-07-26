@@ -1,0 +1,40 @@
+The ZCO Scholarship Contest has just finished, and you finish with a rank of 
+�
+R. You know that Rank 
+1
+1 to Rank 
+50
+50 will get 
+100
+%
+100% scholarship on the ZCO exam fee and Rank 
+51
+51 to Rank 
+100
+100 will get 
+50
+%
+50% percentage scholarship on the ZCO exam fee. The rest do not get any scholarship.
+What percentage of the scholarship will you get?
+
+
+solution::
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	// your code goes here
+	int r;
+	cin>>r;
+	if(r>=1 && r<=50){
+	    cout<<"100\n";
+	}
+	else if(r>=51 && r<=100){
+	    cout<<"50\n";
+	}
+	else{
+	    cout<<"0\n";
+	}
+	return 0;
+}
