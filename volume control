@@ -1,0 +1,28 @@
+Chef is watching TV. The current volume of the TV is 
+�
+X. Pressing the volume up button of the TV remote increases the volume by 
+1
+1 while pressing the volume down button decreases the volume by 
+1
+1. Chef wants to change the volume from 
+�
+X to 
+�
+Y. Find the minimum number of button presses required to do so.
+
+solution::
+
+#include <iostream>
+using namespace std;
+
+int main() {
+	//Your code goes here
+	int t;
+	cin>>t;
+	while(t--){
+	    int x,y;
+	    cin>>x>>y;
+	    cout<<abs(x-y)<<"\n";
+	}
+	return 0;
+}
